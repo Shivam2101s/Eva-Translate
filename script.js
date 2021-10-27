@@ -33,7 +33,7 @@ trans_text.innerHTML =  data.translatedText ;
 
 }
 
-//for copy
+//copy text
 
 function copy() {
 
