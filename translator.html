@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eva Translate</title>
+    <link rel="icon" href="https://e7.pngegg.com/pngimages/970/890/png-clipart-google-translate-translation-computer-icons-google-play-tecnologia-blue-angle.png">
+    <link rel="stylesheet" href="./style.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+    <header>
+<img id="logo" src="https://w7.pngwing.com/pngs/591/100/png-transparent-google-translate-translation-english-language-clolorful-letters-blue-angle-english.png" alt=""/>
+<p>Eva Translate</p>
+    </header>
+    <p id="heading">Translation</p>
+
+    <div id="languageSelect">
+        <div class="option"> 
+            <label for="lang">Please Select a Language</label>
+            <select name="lang" id="inpLang">
+                <option value="auto">Auto Select</option>
+                <option value="en">English</option>
+                <option value="ar">Arabic</option>
+                <option value="zh">Chinese</option>
+                <option value="fr">French</option>
+                <option value="de">German</option>
+                <option value="hi">Hindi</option>
+                <option value="id">Indonesian</option>
+                <option value="ga">Irish</option>
+                <option value="it">Italian</option>
+                <option value="ja">Japanese</option>
+                <option value="ko">Korean</option>
+                <option value="pl">Polish</option>
+                <option value="pt">Portuguese</option>
+                <option value="ru">Russian</option>
+                <option value="es">Spanish</option>
+                <option value="tr">Turkish</option>
+                <option value="vi">Vietnamese</option>
+            </select>
+        </div>
+
+        <div class="option"> 
+            <label for="lang">Please Select a Language</label>
+            <select name="lang" id="language">
+                <option value="en">English</option>
+                <option value="ar">Arabic</option>
+                <option value="zh">Chinese</option>
+                <option value="fr">French</option>
+                <option value="de">German</option>
+                <option value="hi">Hindi</option>
+                <option value="id">Indonesian</option>
+                <option value="ga">Irish</option>
+                <option value="it">Italian</option>
+                <option value="ja">Japanese</option>
+                <option value="ko">Korean</option>
+                <option value="pl">Polish</option>
+                <option value="pt">Portuguese</option>
+                <option value="ru">Russian</option>
+                <option value="es">Spanish</option>
+                <option value="tr">Turkish</option>
+                <option value="vi">Vietnamese</option>
+            </select>
+        </div>
+    </div>
+   
+
+    <div id="container">
+<textarea name="" id="box1" class="textBox" cols="50" rows="15" spellcheck="true" placeholder="Enter text here..."></textarea>
+<textarea name="" id="box2" cols="50" rows="15"  spellcheck="false"></textarea>
+    </div>
+    <div id="BtnDiv">
+        <button id="clickBtn" onclick="runSpeechRecognition()"><i class="fas fa-microphone-alt-slash"></i></button>
+        <button id="transBtn">Translate</button>
+        <button id="speakBtn" onclick="sayItOutLoud()"><i class="fas fa-volume-up"></i></button>
+        <button id="copyBtn" onclick="copy()"><i class="far fa-copy"></i></button>  
+    </div>
+</body>
+</html>
+
+<script src="./script.js"></script>

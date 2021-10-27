@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+    width: 100%;
+    height:70px ;
+    background-color: #42A5F5;
+    color: white;
+    font-size: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+    letter-spacing: 8px;
+}
+#logo {
+    height: 100%;
+}
+
+#heading {
+font-size: 60px;
+margin:30px;
+text-align:center;
+}
+.option {
+    display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+font-size: 18px;
+
+}
+#language , #inpLang {
+    width: 200px;
+    height: 30px;
+    font-size: 14px;
+}
+#container {
+    width: 60%;
+    margin:20px auto;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    gap: 4%;
+}
+#box1, #box2 {
+    padding: 20px;
+    font-size: 18px;
+    resize: none;
+    overflow-y: scroll;
+}
+#BtnDiv {
+   width: 30%;
+   height: 50px;
+   display: grid;
+   grid-template-columns: 10% 30% 10% 10%;
+   justify-content: center;
+   margin-left: 38%;
+   gap: 10%;
+}
+
+#BtnDiv button {
+    font-size: 20px;
+    background-color:#42A5F5;
+    color: white; 
+    border-radius: 25px;
+}
+#languageSelect {
+    width: 60%;
+    padding:0 3%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
