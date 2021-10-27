@@ -15,7 +15,7 @@ Link to visit site:- evatranslate.netlify.app
 
 ## Functionality
 * Speech to Text
-* Text to speech
+* Text to Speech
 * Copy the translated text
 
 ## Contributed by
