@@ -1,6 +1,5 @@
 # Eva-Translate
-
-Eva Translate is a translating tool , user can converts text from one language to another and also hear it's correct pronunciation. It also have speech to text feature through which user can type by speaking and translate it.
+Eva Translate is a translating tool, users can translate text from one language to another and also hear its correct pronunciation. It also has a speech-to-text feature through which users can type by speaking and translating it.
 
 ## This website is hosted on Netlify
 Link to visit site:- https://evatranslate.netlify.app/
