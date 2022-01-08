@@ -5,7 +5,7 @@ Eva Translate is a translating tool, users can translate text from one language 
 Link to visit site:- https://evatranslate.netlify.app/
 
 ## Glimpse of the project
-<img src="https://imgdb.in/j9Zr.jpg" width="100%" height="auto" />
+<img src="https://github.com/Shivam2101s/images/blob/main/eva%20translate.jpg?raw=true" width="100%" height="auto" />
 
 
 ## Technology used
